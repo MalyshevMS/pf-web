@@ -1,5 +1,5 @@
 {
-  "name": "pf-web",
+  "name": "@MalyshevMS/pf-web",
   "version": "1.0.0",
   "description": "An npm library for Pulsar Format",
   "main": "./dist/index.js",
@@ -29,8 +29,11 @@
     "url": "https://github.com/MalyshevMS/pf-web/issues"
   },
   "homepage": "https://github.com/MalyshevMS/pf-web#readme",
-  "dependencies": {
+  "devDependencies": {
     "@types/node": "^25.3.0",
     "typescript": "^5.9.3"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }
