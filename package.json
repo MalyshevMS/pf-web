@@ -1,7 +1,7 @@
 {
   "name": "pf-web",
   "version": "1.0.0",
-  "description": "",
+  "description": "An npm library for Pulsar Format",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "exports": {
